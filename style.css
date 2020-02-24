@@ -1,0 +1,49 @@
+body, header, main, footer, img {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+/*====================================header======================================*/
+header {
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+    header div {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        font-size: 100%;
+        border-radius: 5% 5% 0% 0%;
+        background-color: rgb(202, 202, 202);
+        height: 100%;
+        width: 45%;
+    }
+        .a1 {
+            color:blue;
+            background-color: yellow;
+        }
+        .a2 {
+            color: green;
+        }
+        .a3 {
+            color: red;
+        }
+/*=====================================main==================================*/
+main {
+    height: 130vh;
+    width: 100vw;
+}
+  main div {
+    height: 130%;
+    width: 100%;
+  }
+        .i1 {
+            position: absolute;
+        }
+        .i2, .i3 {
+            position: absolute;
+            display: none;
+        }
+
